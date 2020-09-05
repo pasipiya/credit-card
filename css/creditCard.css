@@ -1,0 +1,224 @@
+.mail {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 700px;
+	background : #ffffff;
+	border: 1px soild silver;
+	font-family: sans-serif;
+}
+/*Payment Options & Underline*/
+.mail h2 {
+	background: white;
+	border-bottom: 2px solid black;
+	border-color: #cccccc;
+	line-height: 1.45;
+}
+
+/* Debit/Credit Card*/
+.mail h4{
+	padding-left: 70px;
+	font-weight: bold;
+}
+
+/* Master Card Image class */
+.imgCard{
+	background: white;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+/*Main background colour*/
+#mainBackground{
+	margin-left: 40px;
+	background: #ededed;
+	border: 1px solid #dbdbdb;
+	padding-bottom: 50px;
+}
+
+/*input font size*/
+input {
+	font-size: 20pt;
+}
+
+input:focus, textarea:focus{
+	background-color: lightyellow;
+}
+
+.rq {
+	color: #FF0000;
+	font-size: 10pt;
+}
+/*Heading within the mainBackground*/
+.mail h5{
+	text-align: justify;
+	font-weight: bold;
+}
+
+/*creditCard Label*/
+.creditCard .Text{
+	display: inline-block;
+	padding-left: 10px;
+	text-align: center;
+}
+/*creditCard Input*/
+.creditCard .cardNumber{
+	width: 250px;
+	height: 25px;
+	vertical-align: middle;
+	margin-left: 30px;
+	border-top: 2px solid grey;
+	border-left: 2px solid grey;
+	border-radius: 4px;
+}
+
+/*expirationDate Label*/
+.expirationDate .Text{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*expirationDate Select*/
+.expirationDate .month{
+	vertical-align: middle;
+	margin-left: 16px;
+	text-align-last: center;
+	border-radius: 3px;
+	border: 1px solid grey;
+}
+
+
+.expirationDate .year{
+	border-radius: 3px;
+	border: 1px solid grey;
+}
+
+/*securityCode Label*/
+.securityCode{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+/*securityCode input*/
+.securityCode .cvv{
+	width: 58px;
+	height: 25px;
+	vertical-align: middle;
+	margin-left: 25px;
+	border-top: 2px solid grey;
+	border-left: 2px solid grey;
+	border-radius: 4px;
+}
+
+/*small Paragraph*/
+.mail p{
+	padding-left: 128px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/*Contiue button*/
+button{
+	vertical-align: middle;
+	margin-left: 128px;
+	cursor: pointer;
+	border: 1px solid #2e2c2c;
+	background: #c90000;
+	color: #ffffff;
+}
+
+
+/*secondPage css*/
+.mailTwo{
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 700px;
+	background : #ffffff;
+	border: 1px soild silver;
+	font-family: sans-serif;
+}
+
+/*You have successfully Underline*/
+.mailTwo h3 {
+	background: white;
+	border-bottom: 2px solid black;
+	border-color: #cccccc;
+	line-height: 3;
+}
+
+/* Debit/Credit Card*/
+.mailTwo h4{
+	padding-left: 55px;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+
+/* Master Card Image */
+.imgageCard{
+	background: white;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+/*output for credit*/
+.mailTwo strong{
+     padding-left: 33px;
+     font-size: 12pt;
+     text-align: center;
+}
+
+/*mainBackground Two*/
+#mainBackgroundTwo{
+	margin-left: 40px;
+	background: #ededed;
+	border: 1px solid #dbdbdb;
+	padding-bottom: 250px;
+}
+
+/*Media Queries*/
+@media (max-width: 720px){
+	
+	/*index.php*/
+	.mail h2{
+		width: 65%;
+		height: 65%;
+	}
+
+	#mainBackground{
+		width: 60%;
+		height: 60%;
+	}
+
+	/*secondPage.php*/
+	.mailTwo h3{
+		width: 68%;
+		height: 68%;
+	}
+
+	.mailTwo h4{
+		width: 50%;
+		text-align:justify;
+	}
+
+	.mailTwo span{
+		display:block;
+		text-align:justify;
+		padding-left: 1px;
+	}
+
+	#mainBackgroundTwo{
+		width: 60%;
+		height: 60%;
+	}
+
+}
